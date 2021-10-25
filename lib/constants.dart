@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/painting.dart';
-import 'package:hackaton_app/main.dart';
 
 const kBottomTextStayle = TextStyle(fontSize: 20.0);
 
@@ -30,12 +29,14 @@ const kTextBile =
     Text('Счёт: ', style: TextStyle(fontSize: 30, fontFamily: 'Montserrat'));
 
 //Text detal operation
-const kDetalOperation = Text('Финансовая\nстатистика',
-    textAlign: TextAlign.center,
-    style: TextStyle(fontSize: 28, fontFamily: 'Montserrat'));
+const kDetalOperation = Text(
+  'Финансовая\nстатистика',
+  textAlign: TextAlign.center,
+  style: TextStyle(fontSize: 28, fontFamily: 'Montserrat'),
+);
 
 //Сам счёт
-var kScore = Text(kBile, style: kMontserratStyleText);
+const kScore = Text('30060', style: kMontserratStyleText);
 
 //Цвета
 const kLableStyle = Color(0xFF546a8c);
